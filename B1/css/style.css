@@ -1,0 +1,54 @@
+/* universe, priority: 5 */
+* {
+    color: white;
+}
+
+/* tag name, priority: 4 */
+p {
+    color: blue;
+}
+
+/* class name, priority: 3 */
+.sub-title {
+    color: green;
+}
+
+/* id name, priority: 2 */
+#sub1 {
+    color: yellow;
+}
+
+/* inline code, priority: 1
+vd: style="color:blueviolet"
+*/
+
+/*================================================= */
+body {
+    /* viền trong */
+    padding: 0 10%;
+    /* viền ngoài */
+    margin: 0;
+    background-image: url(https://i.pinimg.com/originals/ee/d1/f3/eed1f39f680461896717af4e7f40a2c3.gif);
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px dotted purple;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
