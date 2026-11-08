@@ -31,6 +31,12 @@ body {
     background-image: url(https://i.pinimg.com/originals/ee/d1/f3/eed1f39f680461896717af4e7f40a2c3.gif);
     background-size: cover;
     overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column; 
 }
 
 
@@ -52,3 +58,4 @@ body {
   transform: scale(1.1);
   transition: all 0.5s;
 }
+
